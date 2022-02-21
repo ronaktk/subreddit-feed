@@ -24,6 +24,20 @@ header input {
   appearance: none;
 }
 
+span input {
+  float: right;
+  text-transform: uppercase;
+}
+
+.url {
+  color: #fff;
+  font-size: 1.5em;
+  text-decoration: none;
+  float: right;
+  margin: 0px;
+  padding: 0px;
+}
+
 header::before {
   content: "/r/";
   display: inline-block;
@@ -31,7 +45,7 @@ header::before {
   font-size: 32px;
   font-weight: 600;
   font-size: italic;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .articles article {
@@ -45,6 +59,13 @@ header::before {
 
 .articles article h3 {
   color: #212121;
+}
+
+.articles article span {
+  color: #212121;
+  float: right;
+  margin: 0px;
+  padding: 0px;
 }
 
 .articles article:nth-child(2n) {
