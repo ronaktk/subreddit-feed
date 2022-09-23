@@ -12,6 +12,6 @@ To Start Server: `npm start`
 
 To Visit App: `http://localhost:3000/`
 
-### Preview
+#### Preview
 
 ![](subreddit-feed.gif)
