@@ -1,0 +1,21 @@
+personalInfo:
+  firstName: 'John'
+  lastName: 'Doe'
+  dob: '01/01/2001'
+  email: ''
+  lastFourSSN: '1001'
+  phoneNumber: ""
+  typeId: 71
+
+location:
+  zipCode: '75036'
+  miles: 30
+  preferredDays: ''
+  sameDay: false
+  daysAround: 45
+
+appSettings:
+  cancelIfExist: true
+  interval: 20000
+  webserver: false
+  headersTimeout: 20000 
